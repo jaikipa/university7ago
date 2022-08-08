@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Universidad</fullName>
+    <active>true</active>
+    <label>Universidad</label>
+    <picklistValues>
+        <picklist>Docente__c</picklist>
+        <values>
+            <fullName>Dr Newman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dr Perez Albela</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mg Ana Alita</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location__c</picklist>
+        <values>
+            <fullName>Grabado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Internacional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nacional</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

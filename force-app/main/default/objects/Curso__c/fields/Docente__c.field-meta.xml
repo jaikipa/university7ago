@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Docente__c</fullName>
+    <externalId>false</externalId>
+    <label>Docente</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dr Newman</fullName>
+                <default>false</default>
+                <label>Dr Newman</label>
+            </value>
+            <value>
+                <fullName>Dr Perez Albela</fullName>
+                <default>false</default>
+                <label>Dr Perez Albela</label>
+            </value>
+            <value>
+                <fullName>Mg Ana Alita</fullName>
+                <default>false</default>
+                <label>Mg Ana Alita</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
