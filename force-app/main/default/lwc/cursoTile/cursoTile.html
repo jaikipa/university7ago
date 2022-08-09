@@ -9,12 +9,12 @@
             <!--Body start-->
             <p class="slds-var-p-horizontal_small">{curso.Description__c}</p>
             <div class="sdls-align_absolute-center">
-            <img
-                class="curso slds-align_absolute-center slds-var-m-around_medium"
-                src={curso.Image_URL__c}
-                alt={curso.Name} 
-        />
-        </div>
+                <img
+                    class="curso slds-align_absolute-center slds-var-m-around_medium"
+                    src={curso.Image_URL__c}
+                    alt={curso.Name} 
+                />
+            </div>
             <div class="sdls-var-p-horizontal_small slds-align_absolute-center">
                 <template if:true={isOnline}>
                     <!--Mostrar icono arroba-->
@@ -34,8 +34,6 @@
                 </template>
             </div>
             </lightning-card>
-            <p class="slds-var-p-horizontal_small">{curso.Location__c}</p>
-                <!--Body end-->
-            </lightning-card>
-    </div>
+             <!--Body end-->
+   </div>
 </template>
