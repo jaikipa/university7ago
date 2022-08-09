@@ -1,6 +1,6 @@
 
 <p align="center">
- <a href="#" target="blank"><img src="[https://nestjs.com/img/logo_text.svg](https://crecedigital.net/wp-content/uploads/2022/08/appSalesforce.png)" width="320" alt="App Sream" /></a>
+ <a href="#" target="blank"><img src="https://crecedigital.net/wp-content/uploads/2022/08/appSalesforce.png" width="320" alt="App Image" /></a>
 </p>
 
 # MY UNIVERSITY APP
