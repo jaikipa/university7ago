@@ -1,9 +1,10 @@
 
-<p align="center">
- <a href="#" target="blank"><img src="https://crecedigital.net/wp-content/uploads/2022/08/appSalesforce.png" width="320" alt="App Image" /></a>
-</p>
 
 # MY UNIVERSITY APP
+
+<p align="center">
+ <a href="#" target="blank"><img src="https://crecedigital.net/wp-content/uploads/2022/08/appSalesforce-1.png" width="520" alt="App Image" /></a>
+</p>
 
 ## Description
 
