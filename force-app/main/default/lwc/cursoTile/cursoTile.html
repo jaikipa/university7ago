@@ -1,3 +1,15 @@
 <template>
-    
+    <lightning-card  title={curso.Name} icon-name="custom:custom55">
+        <lightning-button label="Ver detalle" slot="actions"></lightning-button>
+        <!--Body start-->
+        <p class="slds-var-p-horizontal_small">{curso.Description__c}</p>
+        <img
+            class="curso slds-align_absolute-center slds-var-m-around_medium"
+            src={curso.Image_URL__c}
+            alt={curso.Name} 
+       />
+       <p class="slds-var-p-horizontal_small">{curso.Location__c}</p>
+        <!--Body end-->
+        <!--<p slot="footer">Card Footer</p>-->
+    </lightning-card>
 </template>
