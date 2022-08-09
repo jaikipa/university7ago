@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Matricula</fullName>
+    <active>true</active>
+    <label>Matricula</label>
+    <picklistValues>
+        <picklist>Periodo__c</picklist>
+        <values>
+            <fullName>2021 - I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2021 - II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022 - I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022 - II</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Turno__c</picklist>
+        <values>
+            <fullName>Mañana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Noche</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarde</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
