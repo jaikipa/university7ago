@@ -1,6 +1,6 @@
 <template>
     <div class="slds-align_absolute_center">
-        <div class="slds-grid">
+        <div class="slds-grid slds-wrap slds-grid_align-spread grid">
             <template if:true={cursos.data}>
                 <template for:each={cursos.data} for:item="curso">
                     <div key={curso.Name}>
