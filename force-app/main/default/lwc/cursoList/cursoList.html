@@ -1,7 +1,16 @@
 <template>
-    <template for:each={curso} for:item="cur">
-        <div key={cur.Id}>
-            <c-curso-tile curso={cur}></c-curso-tile>
+    <div class="slds-align_absolute_center">
+        <div class="slds-grid">
+            <template if:true={cursos.data}>
+                <template for:each={cursos.data} for:item="curso">
+                    <div key={curso.Name}>
+                        <c-curso-tile 
+                        curso={curso}
+                        class="slds-col sdls-var-m-around_small"
+                        ></c-curso-tile>
+                    </div>
+                </template>
+            </template>
         </div>
-    </template>
+    </div>
 </template>

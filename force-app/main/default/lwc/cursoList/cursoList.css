@@ -1,3 +1,8 @@
+.grid{
+    width: 1100px;
+}
+
+/*
 :host { 
     max-width: 325px;
     display: block;
@@ -11,3 +16,4 @@ img.curso {
     border: 1px solid rgb(221, 219, 218);
 }
 
+*/
